@@ -6,5 +6,7 @@ public class Myclass {
 		System.out.println("Master version");
 		YourClass your = new YourClass();
 		your.sayHello("one");
+		System.out.println("2 Git!");
+		your.sayHello("Everyone");
 	}
 }
