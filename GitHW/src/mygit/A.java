@@ -2,17 +2,18 @@ package mygit;
 
 public class A {
 	
-	private Integer age;
 	private String name;
+	private Integer age;
+	private Boolean isMale;
 
-	public A(Integer age, String name) {
-		this.age = age;
+	public A(String name, Integer age, Boolean isMale) {
 		this.name = name;
+		this.age = age;
+		this.isMale = isMale;
 	}
 
 	public static void main(String[] args) {
-		A person = new A(3, "sieon");
-		System.out.println("age: "+ person.age + "name: "+ person.name);
+		A person2 = new A("금시언", 24, true);
 	}
 
 }
