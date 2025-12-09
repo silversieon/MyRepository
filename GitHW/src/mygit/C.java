@@ -1,14 +1,18 @@
 package mygit;
 
 public class C {
+	
+	private String addressName;
+	private Integer orderCount;
+	private Integer productPrice;
 
-	public C() {
-		// TODO Auto-generated constructor stub
+	public C(String address, Integer count, Integer price) {
+		this.addressName = address;
+		this.orderCount = count;
+		this.productPrice = price;
 	}
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		C order2 = new C("서울시 성북구 정릉동", 30, 20000);
 	}
 
 }
