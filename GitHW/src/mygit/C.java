@@ -1,7 +1,6 @@
 package mygit;
 
 public class C {
-	
 
 	private String address;
 	private Integer orderCount;
