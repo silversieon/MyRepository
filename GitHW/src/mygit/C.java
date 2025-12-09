@@ -2,19 +2,19 @@ package mygit;
 
 public class C {
 	
-	private Integer price;
+
 	private String address;
-	private Integer count;
+	private Integer orderCount;
+	private Integer productPrice;
 
-	public C(String address, Integer price, Integer count) {
-		this.price = price;
+
+	public C(String address, Integer count, Integer price) {
 		this.address = address;
-		this.count = count;
+		this.orderCount = count;
+		this.productPrice = price;
 	}
-
 	public static void main(String[] args) {
-		C order = new C("서울시 성북구", 15000, 3);
-		System.out.println("order1: " + order.address + ", " + order.price + ", " + order.count);
+		C order2 = new C("서울시 성북구 정릉동", 30, 20000);
 	}
 
 }
